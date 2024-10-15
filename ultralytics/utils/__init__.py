@@ -974,7 +974,7 @@ class SettingsManager(dict):
             "neptune": True,
             "raytune": True,
             "tensorboard": False,
-            "wandb": True,
+            "wandb": False,
         }
 
         super().__init__(copy.deepcopy(self.defaults))
