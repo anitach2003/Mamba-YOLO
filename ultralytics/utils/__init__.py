@@ -973,7 +973,7 @@ class SettingsManager(dict):
             "mlflow": True,
             "neptune": True,
             "raytune": True,
-            "tensorboard": True,
+            "tensorboard": False,
             "wandb": True,
         }
 
